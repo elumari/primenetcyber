@@ -1,0 +1,16 @@
+{
+    "name": "elumari/cyber-cafe",
+    "autoload": {
+        "psr-4": {
+            "Elumari\\CyberCafe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yes"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "*"
+    }
+}

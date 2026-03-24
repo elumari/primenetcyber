@@ -1,0 +1,25 @@
+/*
+ * PrimeNet Cyber Ngaoundéré
+ * CSS complémentaire Bootstrap
+ * (Bootstrap 5 gère l'essentiel — ce fichier ajoute les finitions)
+ */
+
+/* Cartes avec hover */
+.card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Navbar active link */
+.navbar .nav-link:hover {
+    color: #90caf9 !important;
+}
+
+/* Logo arrondi dans header */
+header img {
+    object-fit: cover;
+}
